@@ -1,17 +1,53 @@
-# React + Vite
+# 🌿 Paradise Nursery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Paradise Nursery is a React-based plant shopping application where users can browse different categories of houseplants, add plants to their cart, manage quantities, and view the total cart value.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🌱 Landing Page
+- 🪴 About Us Page
+- 🌿 Plant Listing Page
+- 📂 Plants grouped into different categories
+- 🛒 Add plants to cart
+- ➕ Increase plant quantity
+- ➖ Decrease plant quantity
+- 🗑️ Remove plants from cart
+- 💰 Dynamic total price calculation
+- 🔢 Dynamic cart item count
+- 📱 Responsive design
+- 🧭 React Router navigation
+- ⚡ Redux Toolkit for cart state management
+- 🔄 Redux Saga integration
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- React Router DOM
+- Redux Toolkit
+- React Redux
+- Redux Saga
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# paradise-nursery" 
+```text
+src/
+├── api/
+│   └── store/
+│       ├── store.js
+│       ├── CartSlice.jsx
+│       └── CartSaga.js
+│
+├── components/
+│   ├── Header.jsx
+│   ├── LandingPage.jsx
+│   ├── AboutUs.jsx
+│   ├── ProductList.jsx
+│   └── CartItem.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
